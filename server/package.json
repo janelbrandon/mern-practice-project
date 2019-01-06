@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha -- -R spec"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-acl": "^2.0.5",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.1",
+    "passport": "^0.4.0",
+    "passport-local-mongoose": "^5.0.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1"
+  }
+}
